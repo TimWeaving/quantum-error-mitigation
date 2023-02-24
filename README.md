@@ -10,3 +10,5 @@ The following packages will be required:
   - For anything related to the quantum hardware itself, including circuit construction and execution.
 - [Deco](https://github.com/alex-sherman/deco)
   - For parallelizing the bootstrapping procedure, but will be replaced with straight multiprocessing shortly.
+
+![](https://github.com/TimWeaving/quantum-error-mitigation/blob/main/plots/ibmq_kolkata_hist.png)
