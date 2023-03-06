@@ -1,8 +1,16 @@
 # Quantum Error Mitigation
 
-Repository to support the QEM benchmark paper.
+Code repository supporting the following paper:
 
-The following packages will be required:
+[Benchmarking Noisy Intermediate Scale Quantum Error Mitigation Strategies for Ground State Preparation of the HCl Molecule](https://doi.org/10.48550/arXiv.2303.00445)
+
+In this work, we compare quantum error mitigation strageties comprised from various combinations of:
+- Measurement-Error Mitigation
+- Symmetry Verification
+- Zero-Noise Extrapolation
+- Dual-State Purification (with or without tomography purification)
+
+The following packages will be required to run the notebooks contained herein:
 
 - [Symmer](https://github.com/UCL-CCS/symmer)
   - For implementing qubit subspace techniques such as Qubit Tapering and Contextual Subspace.
